@@ -53,6 +53,7 @@ main.subscribed {
 
 aside {
     padding: 0 4em 0 3em;
+    max-width: 376px;
 }
 
 aside p {
