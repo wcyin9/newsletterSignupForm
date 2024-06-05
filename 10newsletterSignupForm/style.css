@@ -15,6 +15,15 @@
     weight: normal;
   }
 
+.error {
+    border: 2px solid tomato !important;
+    background-color: rgba(255, 99, 71, 0.268) !important;
+    color: tomato !important;
+    &::placeholder{
+        color: tomato;
+    }
+}
+
   h1 {
     font-family: 'Roboto Bold', sans-serif;
     font-size: 56px;
