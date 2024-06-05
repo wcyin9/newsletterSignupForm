@@ -32,6 +32,7 @@ submitBtnE1.addEventListener("click", (e) => {
   } else {
     invalidEmailE1.classList.add("active")
     emailInput.classList.add("active")
+    emailInput.classList.add("error");
   }
 })
 
