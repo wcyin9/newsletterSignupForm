@@ -26,9 +26,10 @@ submitBtnE1.addEventListener("click", (e) => {
     formSuccess()
     userEmailE1.innerText = email
     emailInput.value=''
-
+  
     invalidEmailE1.classList.remove("active")
     emailInput.classList.remove("active")
+    emailInput.classList.remove("error");
   } else {
     invalidEmailE1.classList.add("active")
     emailInput.classList.add("active")
